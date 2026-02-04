@@ -2,12 +2,12 @@
 
 public class HadaP1
 {
-    public static double Seconds2Minutes(double s)
+    public static double Seconds2Minutes(double m)
     {
-       if(s==0) return 0;
+       if(m==0) return 0;
         return 0;
         
-        return s / 60.0;
+        return m * 60.0;
     }
 
 }
